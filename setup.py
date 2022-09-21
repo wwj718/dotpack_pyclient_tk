@@ -10,7 +10,7 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['Pillow==9.0.1', 'loguru==0.6.0']
+requirements = ['Pillow==9.0.1']
 
 setup_requirements = [
     'pytest-runner',

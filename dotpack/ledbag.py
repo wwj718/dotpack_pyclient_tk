@@ -4,8 +4,7 @@ import platform
 import time
 import uuid
 
-# import logging
-import loguru
+import logging
 from PIL import Image, ImageDraw, ImageFont, ImageSequence  # pillow
 
 
@@ -66,7 +65,7 @@ class DotPack:
         self._use_imagicharm_coordinate_system = use_imagicharm_coordinate_system
 
         if logger is None:
-            self.logger = loguru.logger
+            self.logger = logging.Logger
 
     def __del__(self):
         # self.logger.debug('del')

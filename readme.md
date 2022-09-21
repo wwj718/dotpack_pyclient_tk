@@ -13,4 +13,6 @@ pip install https://github.com/wwj718/dotpack_pyclient_tk/archive/refs/heads/mai
 
 ```python
 from dotpack import DotPack
+pack = DotPack()
+pack.set_pixel(0, 0, 'red')
 ```

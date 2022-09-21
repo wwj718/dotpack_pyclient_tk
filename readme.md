@@ -6,7 +6,7 @@ Simulator(based tk) for dotPack ( Eliteu Programable led matrix pack ).
 
 ```bash
 # Python >= 3.6
-pip install dotpack_tk
+pip install https://github.com/wwj718/dotpack_pyclient_tk/archive/refs/heads/main.zip
 ```
 
 # Usage

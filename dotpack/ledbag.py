@@ -56,6 +56,7 @@ class DotPack:
     ):
 
         self._simulator_tk = TKDotPackSimulator()
+        time.sleep(0.2)
         self.type = "DotPack"  # ...
         self.size = 16
         self.address = address.strip()

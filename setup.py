@@ -30,7 +30,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="A simulator(based tk) for dotPack.",
+    description="A simulator(tkinter-based) for dotPack.",
     install_requires=requirements,
     license="GNU General Public License v3",
     long_description=readme + '\n\n' + history,
@@ -47,6 +47,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/longan-link/dotpack_pyclient',
-    version='0.0.4',
+    version='0.0.5',
     zip_safe=False,
 )

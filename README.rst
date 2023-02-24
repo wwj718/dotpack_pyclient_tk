@@ -3,7 +3,7 @@ dotpack
 ======================
 
 
-Simulator(based tk) for dotPack ( Eliteu Programable led matrix pack ).
+A simulator(tkinter-based) for dotPack. ( Eliteu Programable led matrix pack ).
 
 
 Install

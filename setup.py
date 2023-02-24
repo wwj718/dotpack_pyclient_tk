@@ -30,13 +30,13 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
     ],
-    description="Python Boilerplate contains all the boilerplate you need to create a Python package.",
+    description="A simulator(based tk) for dotPack.",
     install_requires=requirements,
     license="GNU General Public License v3",
     long_description=readme + '\n\n' + history,
     include_package_data=True,
     keywords='dotpack',
-    name='dotpack',
+    name='dotpack-tk',
     packages=['dotpack'],
     entry_points={
         'console_scripts': [
@@ -47,6 +47,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/longan-link/dotpack_pyclient',
-    version='0.0.2',
+    version='0.0.4',
     zip_safe=False,
 )

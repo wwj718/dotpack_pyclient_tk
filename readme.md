@@ -1,6 +1,6 @@
 # readme
 
-Simulator(based tk) for dotPack ( Eliteu Programable led matrix pack ).
+Simulator(tk-based) for dotPack ( Eliteu Programable led matrix pack ).
 
 # Install
 
